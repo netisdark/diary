@@ -142,6 +142,7 @@
          div.appendChild(p);
          div.appendChild(span);
          details.appendChild(summary);
+         details.style="white-space:pre-line";
          details.innerHTML=localStorage.getItem('arr'+u);
         div.appendChild(details); document.getElementById('list').appendChild(div);
      }
